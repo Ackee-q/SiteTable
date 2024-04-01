@@ -1,0 +1,77 @@
+body {
+    background-color: #FEECE2;
+    font-family: "Cabin", sans-serif;
+    font-family: "Oswald", sans-serif;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 7px solid #E2BFB3;
+  }
+  
+  thead th:nth-child(1) {
+    width: 10%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 10%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 10%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+    text-align: right;
+  }
+  
+  th,
+  td {
+    padding: 20px;
+  }
+
+
+  /* Design */
+
+thead,
+tfoot {
+  color: #161A30;
+  font-size: 20px;
+  text-align: center;
+}
+
+thead th,
+tfoot th,
+tfoot td {
+  background: linear-gradient(to bottom, #FFBE98, #FFCAD4);
+  border: 7px solid #8E7AB5;
+}
+
+/* Table */
+
+tbody tr:nth-child(odd) {
+    background-color: #EED3D9;
+    font-size: 20px;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #EED3D9;
+    font-size: 20px;
+  }
+  
+  tbody tr {
+    font-size: 20px;
+  }
+  
+  table {
+    background-color:#EED3D9;
+  }
+  
+.table {
+    font-size: 7px;
+    font-family: "Oswald", sans-serif;
+    font-size: xx-large;
+}
